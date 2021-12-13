@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_title">
+        <item>System Default</item>
+        <item>Small</item>
+        <item>Default</item>
+        <item>Large</item>
+        <item>Largest</item>
+    </string-array>
+    <string-array name="day">
+        <item>Sun.</item>
+        <item>Mon.</item>
+        <item>Tue.</item>
+        <item>Wed.</item>
+        <item>Thu.</item>
+        <item>Fri.</item>
+        <item>Sat.</item>
+    </string-array>
+    <string-array name="set_theme_title">
+        <item>Light mode</item>
+        <item>Dark mode</item>
+        <item>System mode</item>
+    </string-array>
+    <string-array name="set_first_page_value">
+        <item>Results</item>
+        <item>Filters</item>
+    </string-array>
+    <string-array name="email_subject">
+        <item>- Time received -\n</item>
+        <item>%t : month/day am/pm hour:minute\n</item>
+        <item>%M : month\n</item>
+        <item>%d : day\n</item>
+        <item>%a : am/pm\n</item>
+        <item>%h : hour\n</item>
+        <item>%m : minute\n</item>
+        <item>\n- Other -\n</item>
+        <item>%n : Number of incoming sms.\n</item>
+        <item>%ic : Incoming number with contact name.\n</item>
+        <item>%c : Contact name</item>
+    </string-array>
+    <string-array name="lang_value">
+        <item>system</item>
+        <item>ko</item>
+        <item>en</item>
+        <item>es</item>
+        <item>de</item>
+        <item>ru</item>
+        <item>ja</item>
+    </string-array>
+
+    <string name="app_name">SMS Forwarder</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_deletequestion">Do you want to delete?</string>
+    <string name="str_fromnumber">From:&#160;</string>
+    <string name="str_subject">Subject: %s</string>
+    <string name="str_forwardnumber">To: %s</string>
+    <string name="str_close">Close</string>
+    <string name="str_from_contacts">From contacts</string>
+    <string name="str_enter_number">Enter Email or Number</string>
+    <string name="str_add">Add</string>
+    <string name="str_done">Done</string>
+    <string name="str_complete">Complete</string>
+    <string name="str_listempty">List is empty</string>
+    <string name="str_appsettings">App Settings</string>
+    <string name="str_appenable">Activate</string>
+    <string name="str_notienable">Notifications for results</string>
+    <string name="str_feedback">Feedback</string>
+    <string name="str_fail">Fail</string>
+    <string name="str_success">Success</string>
+    <string name="str_sending">Sending</string>
+    <string name="str_scheduled">Scheduled</string>
+    <string name="str_retry">Retry</string>
+    <string name="str_checkinput">Please check the input value.</string>
+    <string name="str_error">Error</string>
+    <string name="str_sendlistclear">Delete all send result</string>
+    <string name="str_sendlistclearcon">Do you want to delete all the send result?</string>
+    <string name="str_themechange">App Theme</string>
+    <string name="str_backkeyclode">Please touch back button again to exit</string>
+    <string name="str_replaceword">Replace words</string>
+    <string name="str_enable_regex">Use regular expression</string>
+    <string name="str_oldword">Old Word</string>
+    <string name="str_newword">New Word</string>
+    <string name="str_options">Options</string>
+    <string name="str_filter_name">Filter Name</string>
+    <string name="str_filternameempty">Untitled</string>
+    <string name="str_email_or_Number">Email or Phone Number</string>
+    <string name="str_add_head_tail">Message Template</string>
+    <string name="str_save_send_data">Save Results</string>
+    <string name="str_donation">Remove ads</string>
+    <string name="str_ad_disable">Ads has been removed.\n(%s)</string>
+    <string name="str_faq_noti">Please describe the situation in more detail when a problem occurs. This will help me analyze the problem.</string>
+    <string name="str_roaming_enable">Send while roaming</string>
+    <string name="str_work_time">Working time</string>
+    <string name="str_backup_restore">Backup/Restore Filters</string>
+    <string name="str_backup">Backup</string>
+    <string name="str_restore">Restore</string>
+    <string name="str_backup_restore_fail">Failed Backup/Restore.</string>
+    <string name="str_noti_str">%1$s and %2$d others</string>
+    <string name="str_start_time">Start Time</string>
+    <string name="str_end_time">End Time</string>
+    <string name="str_mms">MMS Setting(Beta)</string>
+    <string name="str_send">Send</string>
+    <string name="str_permission_guide_title">Permission approval</string>
+    <string name="str_permission_settings_app">Settings</string>
+    <string name="str_privacy_policy">Privacy Policy</string>
+    <string name="str_battery_help">In order to use this app without experiencing any issues, you must \"Exclude\" this app from your \"Optimize Battery Usage\" list.</string>
+    <string name="str_battery_already_confirm">You have already confirmed the ignore optimization.</string>
+    <string name="str_additional_settings">Additional settings</string>
+    <string name="str_optimize_batter_usage">Ignore Optimize battery usage</string>
+    <string name="str_sms_observer_running">This notification allows the app to operate with high stability.</string>
+    <string name="str_sms_observer_running_info">This notification prevents the app from entering sleep mode. Leave this function "ON" so that the app can function stably.\n(You can turn the feature ON/OFF in the \'Settings\' menu)</string>
+    <string name="str_version_update">This app has been updated.</string>
+    <string name="str_simple_mode_outnumber">Please enter the phone number, e-mail, or URL of the another device that will receive a message from this phone.</string>
+    <string name="str_help_replace_words_text1">Change a specific word to another word in the received message.</string>
+    <string name="str_help_replace_words_text2">If you leave a blank in the "New Word" column, the message will be sent after deleting that word.</string>
+    <string name="str_help_attachment_text">Add information to the header and footer of the message.</string>
+    <string name="str_help_options_text1">Register the message sending result as a notification.</string>
+    <string name="str_help_options_text2">Save the results of the delivery.</string>
+    <string name="str_help_options_text3">Send a message after a set amount of time has passed.</string>
+    <string name="str_help_options_text4">Operates only for the set amount of time.</string>
+    <string name="str_help_from_who_detail1">Determine whether you will forward a message (based on the phone number of the sender). If you do not enter anything, all SMS will be forwarded.</string>
+    <string name="str_help_from_who_detail2">Forward SMS if the phone number(s) match.</string>
+    <string name="str_help_from_who_detail3">Do not forward the SMS if the phone number(s) match.</string>
+    <string name="str_help_rule_for_text_detail1">Determine whether to forward (or not forward) the message by checking if a certain word is included in the body of the SMS (or notification). If you do not enter anything, all SMS (or notifications) will be forwarded.</string>
+    <string name="str_help_rule_for_text_detail2">Forward the SMS or notification if a word is included in the body.</string>
+    <string name="str_help_rule_for_text_detail3">Do not forward the SMS or notification if a word is included in the body.</string>
+    <string name="str_help_notification_title_detail1">Checks whether the subject of the notification contains words.</string>
+    <string name="str_help_notification_title_detail2">If there are words in the text, Notification is delivered.</string>
+    <string name="str_help_notification_title_detail3">If there are no words in the text, Notification is delivered.</string>
+    <string name="str_help_outnumber_detail">How to use URL\n\nGET:\nThe message is appended to the end of the URL.\nex)\nURL: https://website.com/send.php?msg=\n\nPOST:\nEnter the URL and key value.\nex)\nURL: https://website.com/send.php\nKey: msg</string>
+    <string name="str_help_wildcard_detail1">If you enter 123*, it will include all numbers starting with 123.</string>
+    <string name="str_help_wildcard_detail2">\"card*price\" represents a sentence that starts with \"card\" and ends with \"price\".</string>
+    <string name="str_exit">Exit</string>
+    <string name="str_rewarded_ad">If you watch video ad all the way through, you can use the ad-free version for 10 hours.</string>
+    <string name="str_loading">Loading</string>
+    <string name="str_body_of_sms">The body of incoming SMS</string>
+    <string name="str_attachment_word">Word</string>
+    <string name="str_attachment_calling_number">Phone Number of incoming SMS</string>
+    <string name="str_attachment_subject_of_notification">The subject of notification</string>
+    <string name="str_attachment_filtername">This filter Name</string>
+    <string name="str_delay_delivery">Delay sending</string>
+    <string name="str_delay_delivery_on_time">No delay</string>
+    <string name="str_delay_delivery_after">Send after %d hour %d minutes.</string>
+    <string name="str_hours">Hours</string>
+    <string name="str_minutes">Minutes</string>
+    <string name="str_font_size">Font Size</string>
+    <string name="str_dualsim">SIM Number</string>
+    <string name="all_numbers">All numbers</string>
+    <string name="str_use_default_number">Use Default Number</string>
+    <string name="str_sim_error">SIM Error</string>
+    <string name="str_sim_error_noti">Please check the \'Dual SIM\' setting in the set filter.</string>
+    <string name="str_help_dualsim_setting">Dual Sim</string>
+    <string name="str_help_dualsim_setting_text">Please select which number you would like to send the SMS among the Dual SIM numbers.</string>
+    <string name="str_appguide_detail">This app provides a feature that allows the user to automatically forward received SMS/Notifications to different phone numbers or e-mails, depending on the filters added by the user.</string>
+    <string name="str_appguide_detail1">- This app does not provide a feature that allows the user to import SMS messages from other devices/phones where the app is not installed.</string>
+    <string name="str_appguide_detail2">- This app does not have a separate server and all data is stored only in the user\'s device. All data will be deleted when the user deletes the app.</string>
+    <string name="str_appguide_detail3">- Depending on your plan, an additional fee (data fee, SMS fee) may be charged when sending messages.</string>
+    <string name="str_appguide_detail4_title">Caution!</string>
+    <string name="str_appguide_detail4">If someone else has asked you to install this app, be careful since he/she may be a fraud. This app may allow others (i.e., scammers, fraudsters, etc.) to peek at messages that include sensitive information. Please understand the purpose &amp; how to use this app before you use it.</string>
+    <string name="str_appguide_detail4_content">Would you like to continue?</string>
+    <string name="str_more_settings">More Settings</string>
+    <string name="str_forwarding_condition">Forwarding conditions</string>
+    <string name="str_change_message_body">Change the content</string>
+    <string name="str_filter">Filter %d</string>
+    <string name="str_delete_all">Delete all</string>
+    <string name="str_please_enter_the_correct_value">Please enter the correct value.</string>
+    <string name="str_gmail_setting_detail">Account authentication is required to send an e-mail via Gmail. A test mail will be sent to the selected account after the account is successfully authenticated.</string>
+    <string name="str_gmail_setting_detail_2">(The \'Gmail\' feature must be added to your Google account. A Google account that has been created with a secondary e-mail address cannot send e-mails. i.e. frzinapps@naver.com)</string>
+    <string name="str_mail_settings">Set up Email Account</string>
+    <string name="str_no_account">No account</string>
+    <string name="str_this_is_a_test_message">This is a test message.</string>
+    <string name="str_test_mail_done">Test mail sent.</string>
+    <string name="str_email_default_title">[SMSForwarder] New message from %ic - %t</string>
+    <string name="str_email_default_title_no_contact">[SMSForwarder] New message from %n - %t</string>
+    <string name="str_email_subject_incoming_number">(Number)</string>
+    <string name="str_email_subject_time">(month/day am/pm hour:minute)</string>
+    <string name="str_email_subject_month">(month)</string>
+    <string name="str_email_subject_day">(day)</string>
+    <string name="str_email_subject_am">(am/pm)</string>
+    <string name="str_email_subject_hour">(hour)</string>
+    <string name="str_email_subject_minute">(minute)</string>
+    <string name="str_email_subject_incoming_with_contact_name">(Incoming number with contact name)</string>
+    <string name="str_email_subject_contact_name">(Contact name)</string>
+    <string name="str_sms_or_noti">What to forward?</string>
+    <string name="str_sms">SMS</string>
+    <string name="str_notification">Notification</string>
+    <string name="str_help_sms_or_notification_title">Choose between SMS &amp; Notification</string>
+    <string name="str_help_sms_or_notification_content">Select which one you would like to deliver. If you select \'Notification\', you can send the \'Usage History\' that you have received from the financial app notification to other places/devices.</string>
+    <string name="str_help_sms_or_notification_content3">You can set a filter by using the notification title or a specific word within the notification as a keyword.</string>
+    <string name="str_help_sms_or_notification_sub_title1">Supported</string>
+    <string name="str_help_sms_or_notification_sub_title2">Not supported</string>
+    <string name="str_change_filter_type_noti_to_sms">If you change to \'SMS\', items related to the notification title will be deleted from \'Notification Title\', \'Message Template\'. \n\nAre you sure you wish to change the setting?</string>
+    <string name="str_change_filter_type_sms_to_noti">If you change to \'Notification\', items related to phone numbers will be deleted from \'From who\', \'Message Template\'. \n\nAre you sure you wish to change the setting?</string>
+    <string name="str_show_ad">Watch video ads\n(Ads removed for 10 hours)</string>
+    <string name="str_fail_connect_google_payment">Failed to connect to Google payment system.(%s)</string>
+    <string name="str_always_send">Always Send</string>
+    <string name="str_everyday">Everyday</string>
+    <string name="str_save">Save</string>
+    <string name="str_update_completed">Update completed</string>
+    <string name="str_line_break">Line break</string>
+    <string name="str_from_who">From who</string>
+    <string name="str_include">Include</string>
+    <string name="str_exclude">Exclude</string>
+    <string name="str_number">Number</string>
+    <string name="str_rule_for_text">Rule for text</string>
+    <string name="str_must_contain">Must contain</string>
+    <string name="str_must_not_contain">Must not contain</string>
+    <string name="str_notification_title">Notification Title</string>
+    <string name="str_email_subject">Email Subject</string>
+    <string name="str_email_subject_setting_detail">Please write a title that you would like to use when sending via e-mail. If you use the special characters below, it will automatically be changed to the corresponding content.</string>
+    <string name="str_remove_all">Remove all</string>
+    <string name="str_or">OR</string>
+    <string name="str_play_services_error">Google Play Services required: after installing, close and relaunch this app.</string>
+    <string name="str_play_services_temp_error">Google Play Services is temporarily unavailable.</string>
+    <string name="str_play_services_temp_error_short">Google Play Services error</string>
+    <string name="str_test_mail_fail">Failed to send test mail.</string>
+    <string name="str_gmail_account_error">There was a problem setting up your Gmail account.</string>
+    <string name="str_gmail_account_error_short">Gmail Account Error</string>
+    <string name="str_gmail_network_error_short">Network Error</string>
+    <string name="str_noti_result_name">Results</string>
+    <string name="str_noti_error_name">Error</string>
+    <string name="str_noti_update_name">App update</string>
+    <string name="str_mms_test_enter_target_number">Please check if the sample message below is received normally.</string>
+    <string name="str_mms_test_phone_number">Phone Number</string>
+    <string name="str_mms_test_message">This is MMS Test.</string>
+    <string name="str_mms_test_error_message">MMS Error - %s</string>
+    <string name="str_mms_test_send_ask">Did you receive the MMS well?</string>
+    <string name="str_mms_test_retry">Retry</string>
+    <string name="str_mms_test_select_dual_sim">Dual sim number</string>
+    <string name="str_mms_test_please_select_dual_sim">Please select a dual sim number.</string>
+    <string name="str_mms_setting_use_mms">Activate MMS.</string>
+    <string name="str_mms_setting_send_lms_to_mms">Send LMS(Long sms) to MMS.</string>
+    <string name="str_mms_setting_send_test">Test MMS</string>
+    <string name="str_mms_setting_mms_on">Activate</string>
+    <string name="str_mms_setting_mms_off">Deactivate</string>
+    <string name="str_mms_setting_text_0">This fuction is Beta. An error may occur during operation.</string>
+    <string name="str_mms_setting_text_1">1. Try the transfer test first.</string>
+    <string name="str_mms_setting_text_2">2. Please complete the settings.</string>
+    <string name="str_pref_app_design">Screen Settings</string>
+    <string name="str_key_guides_title">Notice</string>
+    <string name="str_battery_optimize_title">Ignore Optimize battery usage</string>
+    <string name="str_prev">Prev</string>
+    <string name="str_next">Next</string>
+    <string name="str_important_battery_optimize">Go to Setting</string>
+    <string name="str_important_xiaomi">If this app doesn\'t work on Xiaomi(Realme etc), , please see the help page.</string>
+    <string name="str_go_to_homepage">Go to HomePage</string>
+    <string name="str_notice_ad_title">Last Guide</string>
+    <string name="str_update_guide">Update Guide</string>
+    <string name="title_results">Results</string>
+    <string name="title_filters">Filters</string>
+    <string name="title_messages">Incoming Messages</string>
+    <string name="title_settings">Settings</string>
+    <string name="change_filter_order">Change order</string>
+    <string name="change_filter_order_help">Long press a filter to change its location.</string>
+    <string name="working_time">Working time</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="accessibility_input_word">Input Word</string>
+    <string name="accessibility_add_header">Add header item</string>
+    <string name="accessibility_add_footer">Add footer item</string>
+    <string name="accessibility_add_tonumber">Add recipient number</string>
+    <string name="accessibility_help_sms_or_noti">Help on what to transfer</string>
+    <string name="accessibility_help_from_who">Help on from who</string>
+    <string name="accessibility_help_wildcard">Help on wildcard</string>
+    <string name="accessibility_help_rule_for_text">Help on rule for text</string>
+    <string name="accessibility_help_replace_words">Help on replace words</string>
+    <string name="accessibility_help_attachment">Help on attachment</string>
+    <string name="accessibility_help_sim_number">Help on sim number</string>
+    <string name="accessibility_help_options">Help on options</string>
+    <string name="accessibility_add_a_filter">Add a filter</string>
+    <string name="activity_not_found">Activity not found.</string>
+    <string name="none">None</string>
+    <string name="via_smtp">Via SMTP</string>
+    <string name="via_gmail_api">Via Gmail API</string>
+    <string name="email_address">Email Address</string>
+    <string name="use_authentication">Use authentication</string>
+    <string name="use_ssl">Use SSL</string>
+    <string name="use_tls">Use TLS/StartTLS</string>
+    <string name="please_complete_setup">Please complete the setup.</string>
+    <string name="send_test_mail">Send test mail</string>
+    <string name="check_input_field">Please check the input fields.</string>
+    <string name="main_setup_error">Mail setting error</string>
+    <string name="main_smtp_account_error">SMTP Account error</string>
+    <string name="main_smtp_host_error">SMTP Host error</string>
+    <string name="sms_permission_error">Permission error</string>
+    <string name="sms_duplication_error">duplicate messages</string>
+    <string name="send_test_message">Would you like to send a test message?</string>
+    <string name="try_adding_a_filter">Touch the \'+\' button to add a filter.</string>
+    <string name="premium_time">%d hours and %d minutes left.</string>
+    <string name="premium_life_time">Lifetime</string>
+    <string name="premium_subscription">Subscribing</string>
+    <string name="incoming_number_with_contact_name">Incoming number with contact name + Line Break</string>
+    <string name="contact_name">Contact name + Line Break</string>
+    <string name="no_contact_name">No contact name</string>
+    <string name="sim_in">SIM In :</string>
+    <string name="sim_out">SIM Out :</string>
+    <string name="use_foreground_service_notification">Foreground service</string>
+    <string name="use_foreground_service">Always use foreground service</string>
+    <string name="use_foreground_service_detail">It helps the app to work stably.</string>
+    <string name="noti_disappears_after_3_seconds">The notification disappears after 3 seconds.</string>
+    <string name="checking_and_sending_messages">Checking and sending messages.</string>
+    <string name="noti_will_be_removed">This noti will be removed after a while.</string>
+    <string name="foreground_service_notification">Foreground service notification</string>
+    <string name="foreground_service_notification_summary">Show/Hide for notification.</string>
+    <string name="foreground_service_notification_help">If you want to hide notification, select \"Foreground Service notification\" from settings.</string>
+    <string name="hide_notification">Hide</string>
+    <string name="permission_error">Permission error</string>
+    <string name="permission_error_notification">There was a problem with the permissions.</string>
+    <string name="incoming_24">Messages in the last 50 or 1 hour</string>
+    <string name="there_are_no_forwarding_results">There are no forwarding results.</string>
+    <string name="help">Help</string>
+    <string name="incoming_message_title">A list of the last 50 or 1 hour SMS and notifications.</string>
+    <string name="incoming_message_guide">Please refer to incoming number and body of the sms, and the subject and body of the notification when setting up filters.</string>
+    <string name="do_you_save_history">Do you want to save the history?</string>
+    <string name="setting_up_recipient">Set up recipients</string>
+    <string name="use_history">Save</string>
+    <string name="forwarding_condition_help">To forward all messages, do not enter anything. You can change the settings to forward (or do not forward) specific messages if it includes a specific word/character in the phone number, title, body of the message, etc.</string>
+    <string name="change_the_content_help">You can choose to add the phone number of the initial sender of the message, a specific word, etc., to the message that you wish to forward, or change certain words within the body of the message.</string>
+    <string name="ignore_case_sensitive">Ignore case sensitive</string>
+    <string name="use_asterisk">Use wildcards(*)</string>
+    <string name="remove_ads_one_month">Remove all Ads\n\nAll ads will be removed while subscribing.</string>
+    <string name="remove_ads_one_month_button">per month : %s\n(Automatically renewed)</string>
+    <string name="remove_ads_six_month_button">per 6 month : %s\n(Automatically renewed)</string>
+    <string name="remove_ads_one_year_button">per year : %s\n(Automatically renewed)</string>
+    <string name="no_condition">There\'re no conditions in the \"Forwarding condition\" field, so all messages are forwarded.</string>
+    <string name="warning">Warning</string>
+    <string name="content">Content: %s</string>
+    <string name="app_list">App List</string>
+    <string name="select_package">Select apps for notification</string>
+    <string name="select">Select</string>
+    <string name="no_packages_noti">If you don\'t select anything, it works for all apps.</string>
+    <string name="all_apps">It works for all apps.</string>
+    <string name="app_selected">1 app selected.</string>
+    <string name="apps_selected">%d apps selected.</string>
+    <string name="add_filter">Add filter</string>
+    <string name="edit_filter">Edit filter</string>
+    <string name="avoid_duplicate_messages">Avoid sending duplicate message</string>
+    <string name="avoid_duplicate_messages_summary">Avoid sending duplicate messages more than 10 times in 1 minute.</string>
+    <string name="update_history">Update history</string>
+    <string name="faq">FAQ</string>
+    <string name="connect">Connect</string>
+    <string name="google_drive_backup">Google Drive Backup</string>
+    <string name="last_backup">Last backup</string>
+    <string name="no_backup">No history</string>
+    <string name="no_account">No Account</string>
+    <string name="backup_account">Account</string>
+    <string name="logout">Sign out</string>
+    <string name="google_drive_backup_detail">Google Drive is a personal cloud storage provided by Google. You can backup your filter date via Google Drive, or even restore the data via your Google account when you get a new mobile phone.</string>
+    <string name="continue_backup">The old backed up file will be deleted and a new file will be created.\nWould you like to continue?</string>
+    <string name="continue_restore">It will restore the filters from the back up data. \nWould you like to continue?</string>
+    <string name="backup_warning">Except for filters, email settings, notification permission, and other app settings are not backed up.</string>
+    <string name="backup_to_a_file">Back up to a file</string>
+    <string name="backup_to_a_file_detail">Back up your filters to a file.</string>
+    <string name="restore_restart">Restart the app to apply the new data.</string>
+    <string name="sim_in_number_line_break">SIM Number + Line break</string>
+    <string name="ignore_duplicate_notifications">Ignore duplicate notifications</string>
+    <string name="ignore_duplicate_notifications_detail">When the same notifications are registered, this app ignores them.</string>
+    <string name="one_hour">1 hour</string>
+    <string name="some_hours">%d hours</string>
+    <string name="one_minute">%d minute</string>
+    <string name="some_minutes">%d minutes</string>
+    <string name="set_ignore_time">Time interval - %s</string>
+    <string name="are_out_my_same">The current mobile phone number is included among the recipients. The same SMS may be sent repeatedly.</string>
+    <string name="remote_activation">Remote Filters Setting</string>
+    <string name="remote_activation_detail">Filters can be enabled/disabled remotely via SMS. Pin code must match to work.</string>
+    <string name="remote_activation_command_title">Command guide</string>
+    <string name="remote_activation_command_guide1">Each command is separated by ; (semicolon).\nA space must be inserted between the command (on/off) and the filter name.</string>
+    <string name="remote_activation_command_guide1_ex">{Pin code};{on/off FilterName};</string>
+    <string name="remote_activation_command_title2">Command example</string>
+    <string name="remote_activation_command_guide2">- Pin code is abc111\n Turn on the FilterCard, Turn off the FilterBank.</string>
+    <string name="remote_activation_command_guide2_ex">abc111;on FilterCard;off FilterBank;</string>
+    <string name="remote_activation_command_guide3">- Turn on all filters</string>
+    <string name="remote_activation_command_guide3_ex">abc111;on all;</string>
+    <string name="remote_activation_command_guide4">- Turn on/off app</string>
+    <string name="remote_activation_command_guide4_ex">abc111;on app;\nabc111;off app;</string>
+    <string name="show_history">Show History</string>
+    <string name="maximum_five">These are the last 5 histories.</string>
+    <string name="reply_result_by_sms">Reply results by SMS</string>
+    <string name="apply_command">The commands have been applied.</string>
+    <string name="filter_error1">Please check the phone number or email or URL in the recipients setting.</string>
+    <string name="filter_error2">If you enter a new word in the Replace words, the old word cannot be left blank.</string>
+    <string name="filter_error3">If you enter the recipient as a URL and select POST method, the key value must be entered.</string>
+    <string name="subscription_management">Subscription management</string>
+    <string name="service_terms">Service Terms</string>
+    <string name="subscription_guide_title">Remove SMS Forwarder ads.</string>
+    <string name="subscription_guide_body">Use all features without ads.</string>
+    <string name="subscription_guide_go">Go to buy</string>
+    <string name="allow">Allow</string>
+    <string name="permission_granted">Permission is granted</string>
+    <string name="need_to_permission">Without permission, the function cannot be used.\n\nIf you do not see the permission confirmation window, please approve the permission directly on the permission setting.</string>
+    <string name="sms_read_permission_title">Read SMS</string>
+    <string name="sms_read_permission">The permission is required to receive and read SMS.</string>
+    <string name="phone_state_permission_title">Phone State</string>
+    <string name="phone_state_permission">The permission is required to check network status and check message errors.</string>
+    <string name="sms_send_permission_title">Send SMS</string>
+    <string name="sms_send_permission">Permission is required to send SMS.</string>
+    <string name="account_permission_title">Read Account info</string>
+    <string name="account_permission">The permission is required to read Google account information.</string>
+    <string name="contacts_permission_title">Read contacts</string>
+    <string name="contacts_permission">The permission is required to verify the name registered in the address book based on the phone number.\n(Message Template, display address book name)</string>
+    <string name="notification_permission_title">Notification access</string>
+    <string name="notification_permission">Thie permission is required to receive notifications.</string>
+    <string name="permission_guide">Permissions</string>
+    <string name="need_to_permission2">There are no permission for some filters you set. Please check the permission.</string>
+    <string name="first_page">First page</string>
+    <string name="send_test_message_title">Send a Test Message</string>
+    <string name="tutorial1">First, add a filter to set up recipients.</string>
+    <string name="tutorial2">Enter the recipient phone number, email or URL. You can add several.</string>
+    <string name="tutorial3">You can set keywords present in the subject or message body as conditions, or leave it blank if you just want to forward everything.</string>
+    <string name="tutorial4">You can customize the template for the forwarded message.</string>
+    <string name="information">Information</string>
+    <string name="languages">Languages</string>
+    <string name="allpopup_ad_body">Float an image instead of a memo.</string>
+    <string name="install">Download</string>
+    <string name="dualsim_setup_guide">If you do not set the dual sim setting in each filter, this setting works by default.</string>
+    <string name="dual_sim_default_setting">Dual SIM default settings</string>
+    <string name="str_pref_sending_settings">Sending Settings</string>
+    <string name="read_more">More</string>
+    <string name="troubleshooting">Troubleshooting</string>
+    <string name="email_problem">If email sending fails repeatedly, try setting up your email account again.</string>
+    <string name="send_diagnostic_information">Send diagnostic information</string>
+    <string name="consent_to_collection">I agree to collect information about abnormal behavior (excluding personal information) to improve this app.</string>
+    <string name="app_off">App off</string>
+    <string name="important_notice">Important_notice</string>
+    <string name="remove_delay_time_function">The delay sending has been removed due to Google\'s policy and battery consumption issues. If the function is turned on for a filter that has already been added, it may malfunction, so please turn it off.</string>
+    <string name="please_run_this_app_at_least">Please run this app at least once every 10 days to ensure stable operation.</string>
+</resources>
